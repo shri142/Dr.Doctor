@@ -2,7 +2,7 @@
 
 <style>
     body {
-        background: url('static/Account/background.jpg');
+        background: url('static/Account/doctor.jpg');
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -99,7 +99,7 @@
                 <div class="myform form">
                     <div class="logo mb-3">
                         <div class="col-md-12 text-center">
-                            <h1>E Prescription</h1>
+                            <h1>Dr. Doctor</h1>
                         </div>
                     </div>
                     <form action="{% url 'login' %}" method="POST" name="login">
@@ -110,8 +110,8 @@
                            	<option>--Select one--</option>
                            	<option>Patient</option>
                            	<option>Doctor</option>
-                           	<option>Company</option>
-                           	<option>Pharmacist</option>
+                          {% comment %} <option>Company</option> {% endcomment %}
+                           	<option>Pharmacist</option>  
                            </select>
                         </div>
                         <div class="form-group">
