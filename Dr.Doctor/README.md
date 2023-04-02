@@ -1,4 +1,4 @@
-# E-prescription
+# Dr.Doctor
 ### Run the project
   * install django
   * run 'python manage.py makemigrations'
